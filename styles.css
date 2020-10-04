@@ -617,6 +617,7 @@ img{
     width: 300px;
   }
   .work__container{
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2,1fr);
     height: 820px;
