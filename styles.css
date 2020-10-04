@@ -243,7 +243,7 @@ img{
   border: 5px solid #2F9EDB;
   cursor: pointer;
   border-radius: 5rem;
-  margin:5px;
+  margin:30px;
 }
 .button:hover{
   box-shadow: 0 .5px 10px 0 #2F9EDB inset, 0 .5px 10px 0 #2F9EDB,
@@ -617,8 +617,7 @@ img{
     width: 300px;
   }
   .work__container{
-    align-items: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2,1fr);
     height: 820px;
     width: 650px;
