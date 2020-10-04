@@ -537,8 +537,7 @@ img{
   text-align: center;
   font-weight: var(--font-semi);
   padding: 1rem 0;
-  height: 200px;
-  width: 100%;
+
 }
 .footer__title{
   font-size: 2rem;
