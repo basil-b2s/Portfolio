@@ -470,7 +470,7 @@ img{
 /* work*/
 .work__container{
   row-gap: 2rem;
-  width: auto;
+
 
 }
 .work__img{
@@ -621,8 +621,6 @@ img{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
-    width: 800px;
-    height: 950px;
 
   }
   .contact__form{
