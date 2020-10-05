@@ -473,17 +473,18 @@ img{
 
 
 }
+.work__container{
+  row-gap: 2rem;
+}
 .work__img{
   box-shadow: 5px 4px 25px rgba(14,36,49,.5);
   border-radius: .8rem;
   overflow: hidden;
   border: 2px solid #fff;
-
 }
 .work__img img{
   transition: 1s;
   cursor: pointer;
-
 }
 .work__img img:hover{
   transform: scale(1.2);
@@ -619,9 +620,7 @@ img{
   .work__container{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2,1fr);
-    height: 820px;
-    width: 650px;
-
+    column-gap: 2rem;
   }
   .timeline__container{
 
