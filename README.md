@@ -1,4 +1,5 @@
 # Portfolio Website
 
-### This is a website created using html, css and javascript for showcasing my works and others
+This is a website created using html, css and javascript for showcasing my works and my details
 
+See my personal portfolio website here - www.iamb2s.ml
