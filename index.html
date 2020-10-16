@@ -9,7 +9,7 @@
         <!-- box icons-->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <title>Basil Saji</title>
         <link rel="shortcut icon" type="image/jpg"  href="assets/img/b2s.jpg">
     </head>
@@ -208,10 +208,10 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="https://formspree.io/f/maylnrpo" method="POST" class="contact__form">
+                    <form id="submit-form" action=""  class="contact__form">
                         <input type="text" placeholder="Name" class="contact__input" required="true" name="name" >
-                        <input type="mail" placeholder="Email" class="contact__input" required="true" name="_replyto">
-                        <textarea name="" placeholder="Message" cols="0" rows="10" class="contact__input" name="message" ></textarea>
+                        <input type="mail" placeholder="Email" class="contact__input" required="true" name="email">
+                        <textarea  placeholder="Message" cols="0" rows="10" class="contact__input" name="message" ></textarea>
                         <input type="submit" value="Send" class="contact__button">
                     </form>
 
