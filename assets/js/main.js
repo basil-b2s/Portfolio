@@ -68,3 +68,21 @@ sr.reveal('.work__img',{interval: 100});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 100});
 sr.reveal('.contact__button',{interval: 100});
+
+$("#submit-form").submit((e)=>{
+    e.preventDefault()
+    $.ajax({
+        url:"https://script.google.com/macros/s/AKfycbxH9M85UzagcskfgEF3Zum5vDkdeo6baCE4LzGX/exec",
+        data:$("#submit-form").serialize(),
+        method:"post",
+        success:function (response){
+            alert("Form submitted successfully")
+            window.location.reload()
+            
+        },
+        error:function (err){
+            alert("Something Error")
+
+        }
+    })
+})
