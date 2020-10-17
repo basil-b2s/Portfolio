@@ -76,7 +76,7 @@ $("#submit-form").submit((e)=>{
         data:$("#submit-form").serialize(),
         method:"post",
         success:function (response){
-            alert("Form submitted successfully")
+            alert("Message Sent Successfully")
             window.location.reload()
             
         },
