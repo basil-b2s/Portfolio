@@ -556,8 +556,7 @@ img{
 /*====== 404 page ======*/
 
 .error_container {
-  margin: 250px auto;
-  max-width: 800px;
+
   text-align: center;
 }
 .error_head {
