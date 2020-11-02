@@ -1,5 +1,6 @@
-/*===== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;700&display=swap');/*===== VARIABLES CSS =====*/
+/*=====google fonts=====*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;700&display=swap');
+/*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
   --font-semi: 600;
