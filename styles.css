@@ -1,15 +1,22 @@
 /*=====google fonts=====*/
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;700&display=swap');
+
 /*===== VARIABLES CSS =====*/
+
 :root{
   --header-height: 3rem;
   --font-semi: 600;
 }
+
 /*=== Background color====*/
+
 body {
   background-color: #0f1112;
 }
+
 /*===== Colores =====*/
+
 :root{
   --first-color: #2F9EDB;
   --second-color: #E3E4E4;
@@ -48,6 +55,7 @@ body {
   --z-fixed: 100;
 }
 
+
 /*base*/
 
 html{
@@ -75,6 +83,7 @@ img{
   height: auto;
   display: block;
 }
+
 
 /*css class */
 .section-title{
