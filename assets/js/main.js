@@ -63,10 +63,10 @@ sr.reveal('.skills__data',{interval: 200});
 sr.reveal('.skills__img',{delay: 600});
 
 /*SCROLL WORK*/
-sr.reveal('.work__img',{interval: 100});
+sr.reveal('.work__img',{interval: 60});
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact__input',{interval: 100});
+sr.reveal('.contact__input',{interval: 60});
 sr.reveal('.contact__button',{interval: 100});
 
 $("#submit-form").submit((e)=>{
