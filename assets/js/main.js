@@ -46,21 +46,21 @@ var typed = new Typed(".typing", {
 /*SCROLL HOME*/
 sr.reveal('.home__title',{});
 sr.reveal('.button',{delay: 600});
-sr.reveal('.home__img',{delay: 300});
-sr.reveal('.home__social-icon',{ interval: 300});
+sr.reveal('.home__img',{delay: 100});
+sr.reveal('.home__social-icon',{ interval: 100});
 
 /*SCROLL ABOUT*/
 sr.reveal('.about__img',{});
-sr.reveal('.about__subtitle',{delay: 200});
-sr.reveal('.about__text',{delay: 200});
-sr.reveal('.personal_details',{delay: 200});
-sr.reveal('.education_timeline',{delay: 300});
+sr.reveal('.about__subtitle',{delay: 100});
+sr.reveal('.about__text',{delay: 100});
+sr.reveal('.personal_details',{delay: 100});
+sr.reveal('.education_timeline',{delay: 200});
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle',{});
 sr.reveal('.skills__text',{});
-sr.reveal('.skills__data',{interval: 200});
-sr.reveal('.skills__img',{delay: 600});
+sr.reveal('.skills__data',{interval: 100});
+sr.reveal('.skills__img',{delay: 300});
 
 /*SCROLL WORK*/
 sr.reveal('.work__img',{interval: 60});
