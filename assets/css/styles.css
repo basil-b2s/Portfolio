@@ -130,6 +130,24 @@ img{
   box-shadow: 0 5px 8px rgba(146,161,176,.25);
 }
 
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(90, 90, 90);
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: linear-gradient(transparent, rgb(167, 162, 162));
+}
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 100px;
+  background: linear-gradient(transparent, rgb(15, 15, 15));
+}
 
 /*nav*/
 .nav{
