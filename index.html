@@ -8,6 +8,10 @@
 
         <!-- box icons-->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+ 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <meta name="google-site-verification" content="oA4Fch0IS8fuVfzPxpiEdqaSsnb1YLw3YKtSFzbSZhA" />
@@ -18,11 +22,11 @@
         <!--header part-->
         <header class="l-header">
             <nav class="nav bd-grid">
-                <div>
+                <div data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                     <a href="#" class="nav__logo">B2S</a>
                 </div>
 
-                <div class="nav__menu" id="nav-menu">
+                <div class="nav__menu" id="nav-menu" data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
@@ -42,13 +46,14 @@
         <main class="l-main">
             <!--home-->
             <section class="home bd-grid" id="home">
-                <div class="home__data">
+                <div class="home__data" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                     <h1 class="home__title"><br/><span class = "text-1">Welcome, </span><br/><span class=" text-1"> I'am </span><span class = "typing text-2 home__title-color" ></span></h1>
 
-                    <a href="#contact" class="button">  Contact Me </a>
+                    <div data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1000"> <a href="#contact" class="button" >  Contact Me </a> </div>
+                    
                 </div>
 
-                <div class="home__social">
+                <div class="home__social" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                     <a target="_blank" href="https://www.linkedin.com/in/basilsaji-b2s/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
                     <a target="_blank" href="https://github.com/basil-b2s" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                     <a target="_blank" href="https://twitter.com/BasilB2S" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
@@ -56,21 +61,21 @@
                     <a target="_blank" href="https://www.facebook.com/profile.php?id=100008956892694" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
                 </div>
 
-                <div class="home__img">
-                    <img src="assets/img/prof1.png" alt="basil saji">
+                <div class="home__img" data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+                    <img src="assets/img/prof1.png" class = "slide-in from-left" alt="basil saji">
                 </div>
             </section>
 
             <!--about section-->
             <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+                <h2 class="section-title" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">About</h2>
 
                 <div class="about__container bd-grid">
-                    <div class="about__img">
+                    <div class="about__img" data-aos="fade-down-right" data-aos-duration="1000" >
                         <img src="assets/img/b2s1.png" alt="b2s">
                     </div>
 
-                    <div>
+                    <div data-aos="fade-down-left" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                         <h2 class="about__subtitle">I'am Basil Saji</h2>
                         <p class="about__text">A Python Developer, ML Enthusiast, Blogger and an Electronics and Communication Engineering aspirant
                                               determined and motivated to finish tasks with almost sincerity and dedication.I'am a good learner who
@@ -78,13 +83,13 @@
                                              Wish for a world with enough advancements and opportunities for the people.<br><br>
                                            <b>Email  :</b>  basilsaji222@gmail.com<br><br><b>Mobile :</b> +919656290158 <br><br>
                                            <b>Blog :</b> <a target="_blank" href="https://techwakerai.blogspot.com/" style="color:#E3E4E4"> TechWaker</a></p><br><br>
-                                           <a target="_blank" href="https://drive.google.com/file/d/1XqHFezcR4WWLCMT7a3xMkan-gRv-z_HK/view?usp=sharing" class="button">  Download CV  </a><br><br>
+                                           <a target="_blank" href="https://drive.google.com/file/d/1XqHFezcR4WWLCMT7a3xMkan-gRv-z_HK/view?usp=sharing" class="button" >  Download CV  </a><br><br>
                     </div>
                  </div>
                  <div class ="education_timeline timeline__container bd-grid ">
-                  <h2 class="about__subtitle edu_heading">Education</h2>
-                  <div class="container">
-                    <div class="timeline">
+                  <h2 class="about__subtitle edu_heading"  data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">Education</h2>
+                 <div class="container" >
+                    <div class="timeline" data-aos="zoom-in-up" data-aos-duration="1000">
                       <ul>
                         <li>
                           <div class="timeline-content">
@@ -116,10 +121,10 @@
 
             <!--skills section-->
             <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+                <h2 class="section-title" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" >Skills</h2>
 
                 <div class="skills__container bd-grid">
-                    <div>
+                    <div data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                         <h2 class="skills__subtitle">Skills</h2>
                         <p class="skills__text">Worked with several Machine Learning and Deep Learning  algorithms.
                                                 Have a good understanding about Web  development, Web Scraping and Web Automation.
@@ -170,7 +175,7 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div data-aos="flip-right" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                         <img src="assets/img/skill_image.png" alt="" class="skills__img">
                     </div>
                 </div>
@@ -178,63 +183,72 @@
 
             <!--work section-->
             <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
+                <h2 class="section-title" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">Work</h2>
+                <div class="work__nav" data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+                    <span class="work__item active-portfolio" data-filter="all">All</span>
+                    <span class="work__item " data-filter=".ml">ML</span>
+                    <span class="work__item " data-filter=".python">Python</span>
+                    <span class="work__item " data-filter=".articles">Articles</span>
 
-                <div class="work__container bd-grid">
-                    <div class="work__img">
+                </div>
+
+
+                <div class="work__container bd-grid" data-aos="zoom-in"  data-aos-duration="1000">
+                    <div class="work__img mix articles">
                       <a target="_blank" href="https://techwakerai.blogspot.com/search/label/Machine%20Learning?&max-results=5">
                         <img src="assets/img/ml.jpg" alt="techwakerai">
                         <h4 class="work_text">Machine Learning Series</h4>
                       </a>
                     </div>
-                    <div class="work__img">
+                    <div class="work__img mix articles">
                       <a target="_blank" href="https://techwakerai.blogspot.com/search/label/Reinforcement%20Learning">
                         <img src="assets/img/rl.jpg" alt="techwakerai">
                         <h4 class="work_text">Reinforcement Learning Series</h4></a>
                     </div>
-                    <div class="work__img">
+                    <div class="work__img mix python">
                       <a target="_blank" href="https://github.com/basil-b2s/InstaBot">
                         <img src="assets/img/instabot.jpg" alt="">
                         <h4 class="work_text">Instabot using Selenium (View on Github)</h4></a>
                     </div>
-                    <div class="work__img">
+                    <div class="work__img mix ml">
                       <a target="_blank" href="https://github.com/basil-b2s/Flower-prediction">
                         <img src="assets/img/iris.png" alt="">
                         <h4 class="work_text">Iris Species Predicting App (View on Github)</h4></a>
                     </div>
-                    <div class="work__img">
+                    <div class="work__img mix">
                       <a target="_blank" href="https://github.com/basil-b2s/Portfolio">
                         <img src="assets/img/b2s_github.jpg" alt="basilsaji_portfolio">
                         <h4 class="work_text">Personal Portfolio (View on Github)</h4>
                       </a>
                     </div>
-                    <div class="work__img">
+                    <div class="work__img mix python">
                       <a target="_blank" href="https://github.com/basil-b2s/Google_meet_bot">
                       <img src="assets/img/g_meet_bot.png" alt="">
                       <h4 class="work_text">Google meet bot using Selenium (View on Github)</h4></a>
                     </div>
-                    <div class="work__img">
+                    <div class="work__img mix ml">
                       <a target="_blank" href="https://github.com/basil-b2s/Flight-Price-Prediction">
                       <img src="assets/img/flight_price.png" alt="">
                       <h4 class="work_text">Flight ticket price prediction (View on Github)</h4></a>
                     </div>
-                    <div class="work__img">
+                    <div class="work__img mix ml">
                       <a target="_blank" href="https://github.com/basil-b2s/Car-price-prediction-project">
                       <img src="assets/img/car_pred.png" alt="">
                       <h4 class="work_text">Car Price prediction (View on Github)</h4></a>
                     </div>
                 </div>
             </section>
-            <!--contact-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
 
-                <div class="contact__container bd-grid">
+            <!--contact-->
+            <section class="contact section" id="contact" >
+                <h2 class="section-title" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">Contact</h2>
+
+                <div class="contact__container bd-grid" >
                     <form id="submit-form" action=""  class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input" required="true" name="name" >
-                        <input type="mail" placeholder="Email" class="contact__input" required="true" name="email">
-                        <textarea  placeholder="Message" cols="0" rows="10" class="contact__input" name="message" ></textarea>
-                        <input type="submit" value="Send" class="contact__button">
+                        <input type="text" placeholder="Name" class="contact__input" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" required="true" name="name" >
+                        <input type="mail" placeholder="Email" class="contact__input" data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" required="true" name="email">
+                        <textarea  placeholder="Message" cols="0" rows="10" class="contact__input" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" name="message" ></textarea>
+                        <input type="submit" value="Send" class="contact__button" data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                     </form>
 
                 </div>
@@ -258,6 +272,9 @@
 
         <!--scroll reveal-->
         <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- MIXITUP-->
+        <script src="assets/js/mixitup.min.js"></script>
 
         <!--main js-->
         <script src="assets/js/main.js"></script>
