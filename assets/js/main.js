@@ -13,6 +13,19 @@ showMenu('nav-toggle','nav-menu')
 
 
 
+AOS.init();
+
+
+//typing animation script
+var typed = new Typed(".typing", {
+  strings: ["Basil Saji","an ML Enthusiast", "a Python Developer", "a Blogger"],
+  typeSpeed: 60,
+  backSpeed: 60,
+  loop: true
+})
+
+
+
 /* ACTIVE AND REMOVE MENU */
 const navLink = document.querySelectorAll('.nav__link');
 
@@ -27,47 +40,25 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
-/* SCROLL REVEAL ANIMATION */
-const sr = ScrollReveal({
-    origin: 'bottom',
-    distance: '60px',
-    duration: 2000,
-    reset: false
+/* mixitup*/
+const mixer = mixitup('.work__container', {
+    selectors: {
+        target: '.work__img'
+    },
+    animation: {
+        duration: 1000
+    }
 });
 
-//typing animation script
-var typed = new Typed(".typing", {
-  strings: ["Basil Saji","an ML Enthusiast", "a Python Developer", "a Blogger"],
-  typeSpeed: 60,
-  backSpeed: 60,
-  loop: true
-})
+const linkPortfolio = document.querySelectorAll('.work__item')
 
-/*SCROLL HOME*/
-sr.reveal('.home__title',{});
-sr.reveal('.button',{delay: 600});
-sr.reveal('.home__img',{delay: 100});
-sr.reveal('.home__social-icon',{ interval: 100});
-
-/*SCROLL ABOUT*/
-sr.reveal('.about__img',{});
-sr.reveal('.about__subtitle',{delay: 100});
-sr.reveal('.about__text',{delay: 100});
-sr.reveal('.personal_details',{delay: 100});
-sr.reveal('.education_timeline',{delay: 200});
-
-/*SCROLL SKILLS*/
-sr.reveal('.skills__subtitle',{});
-sr.reveal('.skills__text',{});
-sr.reveal('.skills__data',{interval: 100});
-sr.reveal('.skills__img',{delay: 300});
-
-/*SCROLL WORK*/
-sr.reveal('.work__img',{interval: 60});
-
-/*SCROLL CONTACT*/
-sr.reveal('.contact__input',{interval: 60});
-sr.reveal('.contact__button',{interval: 100});
+function activePortfolio(){
+    if(linkPortfolio){
+        linkPortfolio.forEach(l => l.classList.remove('active-portfolio'))
+        this.classList.add('active-portfolio')
+    }
+}
+linkPortfolio.forEach(l => l.addEventListener('click', activePortfolio))
 
 $("#submit-form").submit((e)=>{
     e.preventDefault()
